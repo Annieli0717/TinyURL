@@ -1,7 +1,7 @@
 # Shorten-URL Full Stack Application
 
-* Developed a full stack RESTful web app using the MEAN stack (MongoDB, Express, AngularJS and Node.js) to deliver TinyURL-like URL shortening service with timestamp expiration feature.
-* Improved Web App performance by implementing Redis cache layer over MongoDB and dockerized the server app to scale up the server to multiple instances.
+* Worked full-stackly on a URL shortening RESTful web app using the MEAN stack (MongoDB, Express, AngularJS and Node.js). Features include the translation of a long URL into an abbreviated alternative that redirects to the longer URL with timestamp expiration feature. 
+* Drastically reduced 25% latency of the web app by implementing a Redis cache layer on top of MongoDB and dockerized the server app to scale up the server to multiple instances. 
 * Deployed server containers under Nginx, gaining load balancing and reverse proxy features.
 * Applied angular-chart.js to visualize the statistic data of short URL accesses including information like Country, Browser, System, etc.
 
